@@ -1,0 +1,80 @@
+.htmledit_views.is_night :not(pre *):not(p font):not(p span):not(a):not(h1 span):not(h2 span):not(h3 span){
+  color:#b4b4b4!important
+}
+.htmledit_views.is_night{
+  color:#c4c4c8!important
+}
+  .htmledit_views.is_night text{
+    fill:#b4b4b4!important
+  }
+  .htmledit_views.is_night img.mathcode{
+    filter:invert(100%)
+  }
+  .htmledit_views.is_night hr{
+    border:1px solid #373739!important
+  }
+  .htmledit_views.is_night dl,
+  .htmledit_views.is_night ol,
+  .htmledit_views.is_night p,
+  .htmledit_views.is_night ul{
+    color:#c4c4c8!important
+  }
+  .htmledit_views.is_night code{
+    color:#de7f3e!important;
+    background-color:#404041!important
+  }
+  .htmledit_views.is_night h1{
+    color:#e2e2e2!important
+  }
+  .htmledit_views.is_night h2,
+  .htmledit_views.is_night h3,
+  .htmledit_views.is_night h4,
+  .htmledit_views.is_night h5,
+  .htmledit_views.is_night h6{
+    color:#c5c5c5!important
+  }
+  .htmledit_views.is_night blockquote{
+    border-color:#404041!important;
+    background:#2e2f30!important
+  }
+  .htmledit_views.is_night 
+  .image-caption{
+    color:#c4c4c8!important
+  }
+  .htmledit_views.is_night table tr{
+    border-color:#373739!important
+  }
+  .htmledit_views.is_night table tr:nth-child(2n) td{
+    background-color:#2e2f30!important
+  }
+  .htmledit_views.is_night table tr th{
+    background-color:#404041!important;
+    border-color:#373739!important;
+    color:#999!important
+  }
+  .htmledit_views.is_night table tr td{
+    background-color:#262728!important;
+    border-color:#373739!important;
+    color:#999!important
+  }
+  .htmledit_views
+  .is_night 
+  .katex--display 
+  .tag{
+    color:#5893c2!important
+  }
+  .htmledit_views.is_night 
+  .link-card-box{
+    background:#222226!important;
+    border:1px solid #46484c!important
+  }
+  .htmledit_views.is_night 
+  .link-card-box 
+  .link-title{
+    color:#c4c4c8!important
+  }
+  .htmledit_views.is_night 
+  .link-card-box 
+  .link-desc{
+    color:#999aaa!important
+  }

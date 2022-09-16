@@ -1,0 +1,1 @@
+CKEDITOR.plugins.setLang("textindent","zh-cn",{labelName:"缩进"});

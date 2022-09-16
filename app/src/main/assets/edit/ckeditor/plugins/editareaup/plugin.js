@@ -1,0 +1,1 @@
+function getCursortPosition(a){var b=0;if(document.selection)a.focus(),b=document.selection.createRange(),b.moveStart("character",-a.value.length),b=b.text.length;else if(a.selectionStart||"0"==a.selectionStart)b=a.selectionStart;return b}CKEDITOR.plugins.add("editareaup",{init:function(a){a.on("contentDom",function(){});a.on("focus",function(a){})}});

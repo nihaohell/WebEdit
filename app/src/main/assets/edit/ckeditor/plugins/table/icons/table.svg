@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icon_biaoge备份</title>
+    <g id="icon_biaoge备份" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon_biaoge">
+            <rect id="Rectangle-4" x="0" y="0" width="16" height="16"></rect>
+            <path d="M14,0 L2,0 C0.8954305,0 0,0.8954305 0,2 L0,13 C0,14.1045695 0.8954305,15 2,15 L14,15 C15.1045695,15 16,14.1045695 16,13 L16,2 C16,0.8954305 15.1045695,0 14,0 Z M2,2 L14,2 L14,13 L2,13 L2,2 Z" id="路径-20" fill="#555666" fill-rule="nonzero"></path>
+            <polygon id="路径-21" fill="#555666" fill-rule="nonzero" points="15 5 15 7 1 7 1 5"></polygon>
+            <polygon id="路径-21备份" fill="#555666" fill-rule="nonzero" points="15 9 15 11 1 11 1 9"></polygon>
+            <polygon id="路径-23备份" fill="#555666" fill-rule="nonzero" points="9 5 9 13 7 13 7 5"></polygon>
+        </g>
+    </g>
+</svg>

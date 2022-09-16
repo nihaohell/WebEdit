@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<!--
+Copyright (c) 2003-2018, CKSource - Frederico Knabben. All rights reserved.
+For licensing, see LICENSE.md or https://ckeditor.com/legal/ckeditor-oss-license
+-->
+<html lang="zh">
+  <head>
+    <meta charset="utf-8">
+    <title>CKEditor Sample</title>
+    <script type="text/javascript"
+      src='https://cdn.bootcss.com/jquery/1.9.1/jquery.min.js'></script>
+    <script src="../ckeditor.js"></script>
+    <script src="../adapters/jquery.js"></script>
+    <script src="js/sample-mp.js"></script>
+    <link rel="stylesheet" href="css/samples.css">
+    <link rel="stylesheet" href="toolbarconfigurator/lib/codemirror/neo.css">
+    <style>
+
+  </style>
+  </head>
+  <body id="main" style="background-color: #F5F6F7;">
+
+    <nav class="navigation-a">
+      <div class="grid-container">
+        <ul class="navigation-a-left grid-width-70">
+          <li><a href="https://ckeditor.com/ckeditor-4/">Project Homepage</a></li>
+          <li><a href="https://github.com/ckeditor/ckeditor-dev/issues">I found
+              a bug</a></li>
+          <li><a href="http://github.com/ckeditor/ckeditor-dev"
+              class="icon-pos-right icon-navigation-a-github">Fork CKEditor on
+              GitHub</a></li>
+        </ul>
+        <ul class="navigation-a-right grid-width-30">
+          <li><a href="https://ckeditor.com/blog/">CKEditor Blog</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <header class="header-a">
+      <div class="grid-container">
+        <h1 class="header-a-logo grid-width-30">
+          <a href="index.html"><img src="img/logo.svg"
+              onerror="this.src='img/logo.png'; this.onerror=null;"
+              alt="CKEditor Sample"></a>
+        </h1>
+
+        <nav class="navigation-b grid-width-70">
+          <ul>
+            <li><a href="index.html" class="button-a button-a-background">Start</a></li>
+            <li><a href="toolbarconfigurator/index.html" class="button-a">Toolbar
+                configurator <span class="balloon-a balloon-a-nw">Edit your
+                  toolbar now!</span></a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <div>
+        <div id="loadingBox" style="min-height: 300px;display: flex;
+          align-items: center; justify-content: center;">loading...</div>
+        <div id="editorbox" style="display: none;">
+          <div style="position: relative; width: 1190px; height: 860px;
+            min-height: 500px; margin: 0 auto">
+            <div class="title-box" style="position: absolute;
+              width: 816px;
+              height: 112px;
+              background: #fff;
+              top: 87px;
+              left: 50%;
+              transform: translateX(-50%);">
+              <div class="ipt-box" style="height: calc(100% - 3px);
+                width: 690px;
+                border-bottom: 1px solid #E8E7E8;
+                margin: 0 auto;">
+
+              </div>
+            </div>
+            <div id="editor">
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="footer-a grid-container">
+      <div class="grid-container">
+        <p class="grid-width-100">
+          CKEditor &ndash; The text editor for the Internet &ndash; <a
+            class="samples" href="https://ckeditor.com/">https://ckeditor.com</a>
+        </p>
+        <p class="grid-width-100" id="copy">
+          Copyright &copy; 2003-2018, <a class="samples"
+            href="https://cksource.com/">CKSource</a> &ndash; Frederico Knabben.
+          All rights reserved.
+        </p>
+      </div>
+    </footer>
+    <script>
+// var preArr =  Array.prototype.slice.call(document.getElementById('editor').getElementsByTagName('pre'));
+// preArr.forEach(function(dom){
+// 	if(dom.childNodes[0].nodeType == 3){
+// 		console.log(dom.className)
+// 		dom.innerHTML='<code class="language-' + dom.className + '" >' + dom.innerHTML + '</code>';
+// 	}
+//
+// })
+	initSample();
+
+</script>
+  </body>
+</html>

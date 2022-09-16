@@ -1,0 +1,1 @@
+CKEDITOR.plugins.setLang("colorbutton","en",{auto:"Automatic",bgColorTitle:"Background Color",colors:{F33B45:"",FFBB66:"","86CA5E":"",E579B6:"","3399EA":"","7C79E5":""},more:"More Colors...",panelTitle:"Colors",textColorTitle:"Text Color"});

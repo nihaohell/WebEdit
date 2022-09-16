@@ -1,0 +1,1 @@
+CKEDITOR.plugins.setLang("eqneditor","en",{title:"CodeCogs Equation Editor",menu:"Maths",toolbar:"公式",edit:"Edit Equation"});

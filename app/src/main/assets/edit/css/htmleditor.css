@@ -1,0 +1,77 @@
+body,html
+{padding:0;
+    margin:0;
+    height:100%
+}body{padding:0 16px}
+body.is_night,
+body.is_night .cke_wysiwyg_div,
+body.is_night .cke_wysiwyg_frame{
+    background-color:#1c1c28
+}
+body.is_night .title-box{
+    border-color:#33333d
+}
+body.is_night .title-box .txt-title{
+    background-color:#1c1c28;
+    color:#e8e8f0
+}
+.title-box{
+    position:relative;
+    padding:12px 0;
+    width:100%;
+    border-bottom:1px solid #f2f2f5;
+    background-color:transparent
+}
+.title-box .txt-title{
+    display:block;
+    padding:0;
+    margin:0;
+    line-height:24px;
+    font-weight:600;
+    font-size:18px;
+    color:#555570;
+    height:24px;
+    width:100%;
+    -webkit-tap-highlight-color:rgba(0,0,0,0)
+}
+.title-box .txt-title::-webkit-input-placeholder{
+    color:#8f8fa6
+}
+.title-box .txt-title::-moz-placeholder{
+    color:#8f8fa6
+}
+.title-box .txt-title:-ms-input-placeholder,
+.title-box .txt-title::-ms-input-placeholder{
+    color:#8f8fa6
+}
+.title-box .txt-title::placeholder{
+    color:#8f8fa6
+}
+.title-box .txt-title:focus{
+        outline:0;
+        border:none;
+        -webkit-tap-highlight-color:rgba(0,0,0,0)
+    }
+textarea{
+        resize:none;
+        border:none;
+        outline:none
+    }
+.editor-box{
+        height:100%;
+        margin-top:8px
+    }
+.cke_editor_editor.cke_chrome{
+        border-top:none
+    }
+.cke_editor_editor.cke_chrome .cke_top,
+.cke_toolbar_ignore{
+        display:none
+    }
+.cke_browser_ios 
+.cke_contents{
+        overflow-y:hidden!important
+    }
+.cke_menu_panel{
+        display:none!important
+    }
